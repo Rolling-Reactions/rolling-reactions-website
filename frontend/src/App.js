@@ -7,7 +7,7 @@ import Team from "./pages/Team";
 
 function App() {
   return (
-    <div className="flex flex-col w-screen font-mono">
+    <div className="flex flex-col w-screen font-mono h-fit">
       <Header />
       <div className="flex flex-col w-screen">
         <Homepage />
