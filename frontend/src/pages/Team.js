@@ -4,6 +4,7 @@ import Jingyi from "../Jingyi.jpeg";
 import Simon from "../Simon.jpeg";
 import Aritra from "../Aritra.jpeg";
 import Anna from "../Anna.jpeg";
+import Adria from "../adri.jpg"
 
 const Team = () => {
   const members = [
@@ -45,8 +46,8 @@ const Team = () => {
     {
         name: "Adria Cruz",
         role: "Supervisor",
-        photo: Nico,
-        mail: "nsrs@kth.se",
+        photo: Adria,
+        mail: "adria.cruz@ericsson.com",
         linkedIn: "https://www.linkedin.com/in/adriacruzcebrian/",
       },
 
@@ -54,7 +55,6 @@ const Team = () => {
   return (
     <div id="team" className="flex flex-col h-screen w-screen justify-center items-center">
       <div className="text-6xl w-4/5">Team</div>
-      <div className="text-3xl w-4/5 mt-8">Students</div>
       <div className="flex flex-wrap justify-center h-4/5">
         {members.map((member) => {
           return (
@@ -72,9 +72,7 @@ const Team = () => {
               <div className=" font-bold">Mail: {member.mail}</div>
               <a className="hover:underline font-bold" href={member.linkedIn}>LinkedIn</a>
               <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+
               </div>
             </div>
           );

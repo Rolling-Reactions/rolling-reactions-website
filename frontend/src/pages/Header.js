@@ -3,7 +3,7 @@ import {Link} from "react-scroll"
 
 const Header = () => {
   return (
-    <div className='h-20 flex justify-between mx-10 items-center'>
+    <div className='h-20 w-full flex justify-between  items-center absolute bg-white'>
         <div className=' font-extrabold text-2xl'> Rolling Reactions</div>
         <div className='flex justify-around w-1/5'> 
             <Link to="about" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer'> About </Link>
