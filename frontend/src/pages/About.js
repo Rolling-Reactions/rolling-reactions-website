@@ -4,13 +4,13 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col h-[100vh] w-screen justify-around items-center"
+      className="flex flex-col h-fit w-full items-center"
     >
       <p className="text-6xl w-4/5 my-3">About the project</p>
       <div className="flex flex-col h-3/6 w-full justify-center items-center">
         <p className="text-4xl font-extrabold w-4/5">Goals</p>
-        <div className="flex justify-center">
-          <div className="h-3/5 w-2/5 ">
+        <div className="flex flex-col justify-center md:flex-row">
+          <div className="h-3/5 w-full md:w-2/5 px-8">
             <p className="text-xl font-extrabold">Developers: </p> A challenge
             in developing advanced interactions (between virtual hands and lab
             equipment, steering wheelchair) and advanced graphics (vials, glass,
@@ -23,7 +23,7 @@ const About = () => {
             from tea, or if you prefer just mess around and accidentally set the
             lab on fire with the sodium+water reaction.
           </div>
-          <div className="h-3/5 w-2/5 px-8 ">
+          <div className="h-3/5 w-full md:w-2/5  px-8 ">
             <p className="text-xl font-extrabold">For society: </p>
             General education of what it is like to work in a lab, packaged as a
             fun sandbox game. The lack of insight into research environments,
@@ -37,8 +37,8 @@ const About = () => {
         </div>
         <div className="w-4/5 my-5">
         <p className="text-4xl font-extrabold w-4/5">Challenges</p>
-        <div className="h-3/6  flex justify-between ">
-          <div className="w-3/6 ">
+        <div className="h-3/6  flex  flex-col justify-around md:flex-row">
+          <div className="w-full  md:w-3/6 ">
             One of the most challenging things has been making the wheelchair
             behave in a believable and intuitive way. Achieving this goal has
             taken countless hours. Then also avoiding making players cyber sick
@@ -52,7 +52,7 @@ const About = () => {
             was spent on fine tuning parameters and testing the system to
             finally achieve a quite realistic simulation of a wheelchair.
           </div>
-          <div div className="w-2/6 ">
+          <div div className="w-full mt-4  md:w-2/6 md:mt-0">
             VR interaction was a big challenge. For the wheelchair we had to
             create a custom interaction system, which involved learning about VR
             input as well as mapping it to a physically realistic wheelchair

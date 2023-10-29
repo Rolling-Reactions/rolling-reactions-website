@@ -14,8 +14,8 @@ const Homepage = () => {
     };
   }, []);
   return (
-    <div className="flex h-screen w-screen bg-black justify-center items-center text-white text-4xl">
-      <video className=" w-full" autoPlay muted>
+    <div className="flex h-[120vh] w-full bg-black justify-center items-center text-white text-4xl">
+      <video className="h-fit w-full" autoPlay muted>
         <source src={vid} type="video/mp4" />
         <image src="../Nico.png" alt="" />
       </video>

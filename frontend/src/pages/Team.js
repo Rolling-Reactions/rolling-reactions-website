@@ -24,7 +24,7 @@ const Team = () => {
     },
     {
       name: "Aritra Bhakat",
-      role: "",
+      role: "Wheelchair physics and interaction, integrating fluid simulation",
       photo: Aritra,
       mail: "aritra@kth.se",
       linkedIn: "https://www.linkedin.com/in/aritra-bhakat/",
@@ -53,13 +53,13 @@ const Team = () => {
 
   ];
   return (
-    <div id="team" className="flex flex-col h-screen w-screen justify-center items-center">
+    <div id="team" className="flex flex-col h-fit w-full justify-center items-center">
       <div className="text-6xl w-4/5">Team</div>
-      <div className="flex flex-wrap justify-center h-4/5">
+      <div className="flex flex-col justify-center h-4/5 md:flex-wrap md:flex-row">
         {members.map((member) => {
           return (
             <div
-              className="flex flex-col mt-8 w-1/4 items-center mx-8"
+              className="flex flex-col mt-8 w-full items-center  md:w-1/4 md:mx-5"
               key={member.name}
             >
               <img
@@ -68,7 +68,7 @@ const Team = () => {
                 alt=""
               />
               <div className="mt-8 font-bold">{member.name}</div>
-              <div className="font-bold">Primary role:  {member.role}</div>
+              <div className="font-bold  text-center">Primary role:  {member.role}</div>
               <div className=" font-bold">Mail: {member.mail}</div>
               <a className="hover:underline font-bold" href={member.linkedIn}>LinkedIn</a>
               <div>
