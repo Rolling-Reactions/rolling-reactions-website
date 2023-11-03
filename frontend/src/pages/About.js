@@ -5,11 +5,11 @@ const About = () => {
   return (
     <div id="about" className="flex flex-col h-fit w-full items-center">
       <div className="flex flex-col h-3/6 w-full justify-center items-center">
-        <div className="flex  h-screen w-4/6 italic items-center justify-around">
+        <div className="flex flex-col h-screen w-screen  italic items-center justify-around lg:w-4/6 lg:flex-row">
           <img className="h-4/6" src={poster} alt="" />
-          <div className="w-1/3 flex flex-col">
-            <p className="font-bold text-3xl ">About the project</p>
-            <p className="text-xl text-center py-4">
+          <div className="w-screen flex flex-col lg:w-1/3">
+            <p className="text-xl font-bold lg:text-3xl text-center">About the project</p>
+            <p className="px-5 lg:text-xl text-center py-4">
               Rolling Reactions is a project in the course DH2413 Advanced
               Graphics and Interactions at KTH, 2023. It is a single player VR
               experience where the user gets to explore a chemistry lab, from a
