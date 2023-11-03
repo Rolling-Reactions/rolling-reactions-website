@@ -17,7 +17,7 @@ const Team = () => {
     },
     {
       name: "Simon Hallak",
-      role: "",
+      role: "Interaction developer and Scene creation",
       photo: Simon,
       mail: "shallak@kth.se",
       linkedIn: "http://linkedin.com/in/simon-hallak-2738a318b",
