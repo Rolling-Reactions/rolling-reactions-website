@@ -1,13 +1,23 @@
 import React from "react";
+import poster from "../ROLLING_REACTIONS.jpg";
 
 const About = () => {
   return (
-    <div
-      id="about"
-      className="flex flex-col h-fit w-full items-center"
-    >
-      <p className="text-6xl w-4/5 my-3">About the project</p>
+    <div id="about" className="flex flex-col h-fit w-full items-center">
       <div className="flex flex-col h-3/6 w-full justify-center items-center">
+        <div className="flex  h-screen w-4/6 italic items-center justify-around">
+          <img className="h-4/6" src={poster} alt="" />
+          <div className="w-1/3 flex flex-col">
+            <p className="font-bold text-3xl ">About the project</p>
+            <p className="text-xl text-center py-4">
+              Rolling Reactions is a project in the course DH2413 Advanced
+              Graphics and Interactions at KTH, 2023. It is a single player VR
+              experience where the user gets to explore a chemistry lab, from a
+              wheelchair bound person’s perspective. The player uses Vivo hand
+              controllers to move around and to interact with the surroundings.
+            </p>
+          </div>
+        </div>
         <p className="text-4xl font-extrabold w-4/5">Goals</p>
         <div className="flex flex-col justify-center md:flex-row">
           <div className="h-3/5 w-full md:w-2/5 px-8">
@@ -35,34 +45,36 @@ const About = () => {
             engage in dangerous experiments in a safe way.
           </div>
         </div>
-        <div className="w-4/5 my-5">
-        <p className="text-4xl font-extrabold w-4/5">Challenges</p>
-        <div className="h-3/6  flex  flex-col justify-around md:flex-row">
-          <div className="w-full  md:w-3/6 ">
-            One of the most challenging things has been making the wheelchair
-            behave in a believable and intuitive way. Achieving this goal has
-            taken countless hours. Then also avoiding making players cyber sick
-            while using the wheelchair in VR has added another layer of
-            challenge. While developing the wheelchair simulation, the initial
-            approach was to use Unity's inbuilt WheelColliders. However, this
-            did not work very well as they did not react realistically to
-            pushing the wheelchair, and turning was often slow. The final system
-            we settled on used HingeJoints for the wheels, as well as applying
-            spring forces to the caster wheels to improve turning. A lot of time
-            was spent on fine tuning parameters and testing the system to
-            finally achieve a quite realistic simulation of a wheelchair.
+        <div className="flex flex-col items-center w-full my-5 justify-center">
+          <p className="text-4xl font-extrabold w-4/5">Challenges</p>
+          <div className="flex flex-col justify-center md:flex-row">
+            <div className="w-full  md:w-2/5 px-8">
+              One of the most challenging things has been making the wheelchair
+              behave in a believable and intuitive way. Achieving this goal has
+              taken countless hours. Then also avoiding making players cyber
+              sick while using the wheelchair in VR has added another layer of
+              challenge. While developing the wheelchair simulation, the initial
+              approach was to use Unity's inbuilt WheelColliders. However, this
+              did not work very well as they did not react realistically to
+              pushing the wheelchair, and turning was often slow. The final
+              system we settled on used HingeJoints for the wheels, as well as
+              applying spring forces to the caster wheels to improve turning. A
+              lot of time was spent on fine tuning parameters and testing the
+              system to finally achieve a quite realistic simulation of a
+              wheelchair.
+            </div>
+            <div div className="w-full px-8 mt-4  md:w-2/5 md:mt-0">
+              VR interaction was a big challenge. For the wheelchair we had to
+              create a custom interaction system, which involved learning about
+              VR input as well as mapping it to a physically realistic
+              wheelchair controller. At the start of the project we used SteamVR
+              for interaction, but we realised that it did not play well with
+              Zibra Effects and frequently crashed. Therefore we had to migrate
+              to the Unity XR Toolkit very late in the project, which added to
+              the challenge as we had to learn a completely new interaction
+              system.
+            </div>
           </div>
-          <div div className="w-full mt-4  md:w-2/6 md:mt-0">
-            VR interaction was a big challenge. For the wheelchair we had to
-            create a custom interaction system, which involved learning about VR
-            input as well as mapping it to a physically realistic wheelchair
-            controller. At the start of the project we used SteamVR for
-            interaction, but we realised that it did not play well with Zibra
-            Effects and frequently crashed. Therefore we had to migrate to the
-            Unity XR Toolkit very late in the project, which added to the
-            challenge as we had to learn a completely new interaction system.
-          </div>
-        </div>
         </div>
       </div>
     </div>

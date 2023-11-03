@@ -63,7 +63,7 @@ const Team = () => {
               key={member.name}
             >
               <img
-                className="h-56 w-56 rounded-full"
+                className="h-56 w-56 rounded-full object-cover object-center"
                 src={member.photo}
                 alt=""
               />
