@@ -2,7 +2,7 @@ import React from "react";
 
 const Credits = () => {
   return (
-    <div id="credits" className="flex h-full w-screen flex-col items-center pt-[100px]  h-screen">
+    <div id="credits" className="flex h-full w-screen flex-col items-center pt-[100px]  ">
       <p className="text-4xl font-extrabold w-4/5"> Lessons learned</p>
       <p className="w-4/5 px-5 lg:text-xl  py-4 italic">
         When working with VR in a team it can be really helpful to have access
@@ -14,7 +14,7 @@ const Credits = () => {
         progress being lost.
       </p>
       <p className="text-4xl font-extrabold w-4/5 mt-5"> Related Work</p>
-      <div className="flex flex-col w-4/5 h-[500px] justify-evenly">
+      <div className="flex w-full flex-col xl:w-4/5 h-[500px] justify-evenly px-5">
         <div className="flex w-fit justify-center flex-col">
           <p className="lg:text-2xl font-bold "> VR Wheelchair </p>
           <div className="flex flex-col w-fit">
@@ -27,7 +27,7 @@ const Credits = () => {
               href="https://github.com/justinmajetich/vr-wheelchair"
             >
               {" "}
-              https://github.com/justinmajetich/vr-wheelchair
+              Link
             </a>
           </div>
         </div>
@@ -40,27 +40,25 @@ const Credits = () => {
               href="https://agiflameproject.github.io/"
             >
               {" "}
-              https://agiflameproject.github.io/ 
+             Link
             </a>
           </div>
         </div>
-        <div className="flex w-fit justify-center flex-col">
-          <p className="lg:text-2xl font-bold ">
-            {" "}
+        <div className="flex w-full justify-center flex-col">
+          <p className="lg:text-2xl font-bold">
             Using Virtual Reality to Demonstrate Glove Hygiene in Introductory
             Chemistry Laboratories
           </p>
-          <div className="flex flex-col w-fit">
+          <div className="flex flex-col w-full">
             <p className="lg:text-2xl">
               Rebecca M. Broyer, Kenny Miller, Shalini Ramachandran, Sheree Fu,
               Karen Howell, Steven Cutchin
             </p>
             <a
-              className="lg:text-2xl"
+              className="lg:text-2xl text-xs"
               href="https://pubs.acs.org/doi/epdf/10.1021/acs.jchemed.0c00137 "
             >
-              {" "}
-              https://pubs.acs.org/doi/epdf/10.1021/acs.jchemed.0c00137
+              Link
             </a>
           </div>
         </div>
