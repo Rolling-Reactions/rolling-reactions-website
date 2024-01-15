@@ -126,7 +126,7 @@ const About = () => {
                   title="YouTube video player"
                 />
               </div>
-              <div>
+              <div className="flex flex-col lg:w-fit lg:ml-5">
                 <p className="text-4xl font-extrabold w-4/5">Making of</p>
                 <iframe
                   width="560"
