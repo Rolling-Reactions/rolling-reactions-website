@@ -116,8 +116,8 @@ const About = () => {
             </div>
           </Carousel>
           <div className="flex flex-col items-center w-full my-5 justify-evenly h-full ">
-            <div className="flex w-fit flex-col xl:flex-row lg:justify-evenly h-fit">
-              <div className="flex flex-col lg:w-fit lg:mr-5">
+            <div className="flex w-fit flex-col xl:flex-row xl:justify-evenly h-fit">
+              <div className="flex flex-col xl:w-fit xl:mr-5">
                 <p className="text-4xl font-extrabold w-4/5">Demo</p>
                 <iframe
                   width="560"
@@ -126,7 +126,7 @@ const About = () => {
                   title="YouTube video player"
                 />
               </div>
-              <div className="flex flex-col lg:w-fit lg:ml-5">
+              <div className="flex flex-col xl:w-fit xl:ml-5">
                 <p className="text-4xl font-extrabold w-4/5">Making of</p>
                 <iframe
                   width="560"
