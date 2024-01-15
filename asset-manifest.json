@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rolling-reactions-website/static/css/main.4673ffbe.css",
-    "main.js": "/rolling-reactions-website/static/js/main.1aabfb2b.js",
+    "main.css": "/rolling-reactions-website/static/css/main.b1035e3b.css",
+    "main.js": "/rolling-reactions-website/static/js/main.0ab6f2ac.js",
     "static/js/787.cda612ba.chunk.js": "/rolling-reactions-website/static/js/787.cda612ba.chunk.js",
     "static/media/Intro_1.mp4": "/rolling-reactions-website/static/media/Intro_1.a65df8364d15ff53ca33.mp4",
     "static/media/adri.jpg": "/rolling-reactions-website/static/media/adri.ddc5023297f98af303e7.jpg",
@@ -16,12 +16,12 @@
     "static/media/Simon.jpeg": "/rolling-reactions-website/static/media/Simon.28cfb071a43c708b8a7a.jpeg",
     "static/media/logo.svg": "/rolling-reactions-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/rolling-reactions-website/index.html",
-    "main.4673ffbe.css.map": "/rolling-reactions-website/static/css/main.4673ffbe.css.map",
-    "main.1aabfb2b.js.map": "/rolling-reactions-website/static/js/main.1aabfb2b.js.map",
+    "main.b1035e3b.css.map": "/rolling-reactions-website/static/css/main.b1035e3b.css.map",
+    "main.0ab6f2ac.js.map": "/rolling-reactions-website/static/js/main.0ab6f2ac.js.map",
     "787.cda612ba.chunk.js.map": "/rolling-reactions-website/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4673ffbe.css",
-    "static/js/main.1aabfb2b.js"
+    "static/css/main.b1035e3b.css",
+    "static/js/main.0ab6f2ac.js"
   ]
 }
