@@ -53,7 +53,7 @@ const Team = () => {
 
   ];
   return (
-    <div id="team" className="flex flex-col h-fit w-full justify-center items-center">
+    <div id="team" className="flex flex-col h-fit w-full justify-center items-center mb-[50px]">
       <div className="text-6xl w-4/5">Team</div>
       <div className="flex flex-col justify-center h-4/5 md:flex-wrap md:flex-row">
         {members.map((member) => {

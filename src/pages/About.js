@@ -116,21 +116,19 @@ const About = () => {
             </div>
           </Carousel>
           <div className="flex flex-col items-center w-full my-5 justify-evenly h-full ">
-            <div className="flex w-fit flex-col xl:flex-row xl:justify-evenly h-fit">
-              <div className="flex flex-col xl:w-fit xl:mr-5">
+            <div className="flex h-[700px] w-screen items-center flex-col xl:flex-row xl:justify-evenly xl:h-[350px]">
+              <div className="w-2/3 flex flex-col xl:w-1/3 xl:mr-5 h-full">
                 <p className="text-4xl font-extrabold w-4/5">Demo</p>
                 <iframe
-                  width="560"
-                  height="315"
+                  height="100%"
                   src="https://www.youtube.com/embed/iiQWsFr16MM?si=F5T9MaS2bCdrlPyv"
                   title="YouTube video player"
                 />
               </div>
-              <div className="flex flex-col xl:w-fit xl:ml-5">
+              <div className="w-2/3 flex flex-col xl:w-1/3 xl:ml-5 h-full">
                 <p className="text-4xl font-extrabold w-4/5">Making of</p>
                 <iframe
-                  width="560"
-                  height="315"
+                  height="100%"
                   src="https://www.youtube.com/embed/q_nkoLzajyU?si=jPZNFyyJmb5NLa36"
                   title="YouTube video player"
                 ></iframe>
